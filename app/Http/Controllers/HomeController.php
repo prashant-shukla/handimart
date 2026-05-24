@@ -112,7 +112,7 @@ class HomeController extends Controller
                                                     ->paginate(4);
 
 
-        $craftmans = User::where('role_id','2')->with(['craftmanSkills'])->orderBy('id','DESC')->get();
+        $craftmans = User::where('role_id','2')->with(['craftmanSkills', 'cities', 'states'])->orderBy('id','DESC')->get();
         foreach ($craftmans as $value) {
             if($value->image != '' && file_exists(public_path('uploads/users/').$value->image)){
                 $value->image_thumb_path = asset('uploads/users/thumb/').'/'.$value->image;

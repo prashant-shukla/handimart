@@ -515,7 +515,7 @@
                                             <hr class="opacity-100 mt20 mb15">
                                             <div class="fl-meta d-flex align-items-center justify-content-between">
                                                 <a class="meta fw500 text-start">Location<br><span
-                                                    class="fz14 fw400">{{ $craftman->city->name }}, {{ $craftman->state->name }}</span></a>
+                                                    class="fz14 fw400">{{ optional($craftman->cities)->name ?? '-' }}, {{ optional($craftman->states)->name ?? '-' }}</span></a>
                                                 <a class="meta fw500 text-start">Per Day<br><span class="fz14 fw400"><i class="fa-solid fa-indian-rupee-sign m-1"></i>
                                                     @if($craftman->business) {{ $craftman->business->per_day_fee }}/- @endif
                                                         </span></a>
