@@ -147,7 +147,7 @@
                         <div class="d-flex align-items-center justify-content-between">
                             <div class="logos">
                                 <a class="header-logo logo1" href="{{ url('/') }}"><img
-                                        src="{{ ($content?->logo) ? asset('uploads/logo/' . $content->logo) : asset('images/logo-white-2.png') }}"
+                                        src="{{ ($content?->logo) ? asset('uploads/logo/' . $content->logo) : asset('images/logo-white.png') }}"
                                         alt="Header Logo"></a>
                                 <a class="header-logo logo2" href="{{ url('/') }}"><img
                                         src="{{ ($content?->dark_logo) ? asset('uploads/logo/' . $content->dark_logo) : asset('images/logo-white-2.png') }}"

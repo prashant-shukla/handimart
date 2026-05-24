@@ -36,7 +36,7 @@ class UserController extends Controller
             return redirect()->route('index');
         }
         // $user_list = User::where('role_id','7')->orderBy('id','DESC')->get();
-        $user_list = User::where('role_id','!=','1')->orderBy('id','DESC')->get();
+        $user_list = User::where('role_id','!=','1')->with('roles')->orderBy('id','DESC')->get();
         foreach ($user_list as $value) {
             if($value->image != '' && file_exists(public_path('uploads/users/').$value->image)){
                 $value->image_thumb_path = asset('uploads/users/thumb/').'/'.$value->image;
@@ -118,7 +118,7 @@ class UserController extends Controller
         $input['user_id'] = 'HM'.date('d').date('m').date('Y');
         $input['name'] = $input['first_name'].' '.$input['last_name'];
         $input['image']=$fileName;
-        $input['membership'] = $input['membership'];
+        $input['membership'] = $input['membership'] ?? 'no';
         $user = User::create($input);
         $user->assignRole($role);
             
