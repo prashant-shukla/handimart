@@ -1,0 +1,12 @@
+.alert p {
+    margin: 0px;
+}
+.myaccountdropdown.afterlogin {
+    text-align: left;
+    font-size: 19px;
+    width: 250px;
+    height: auto;
+}
+.myaccountdropdown.afterlogin a.forgotpassword{
+    font-size: 18px;
+}

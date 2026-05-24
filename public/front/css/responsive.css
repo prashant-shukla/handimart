@@ -1,0 +1,1712 @@
+@media (min-width: 320px) and (max-width: 993px) {
+	.city_serch img {
+		
+    position: absolute;
+    top: -15px;
+
+	}
+
+.main_banner {
+	padding-top: 70px;
+}
+.selectBoxTop2 {
+	height: auto;
+	min-height: 30px;
+	font-size: 11px;
+	line-height: 15px;
+}
+.selectBoxTop {
+	font-size: 14px;
+	height: auto;
+}
+.city_serch:after {
+	display: none;
+}
+.footer-about-wrapper .p-0 {
+	padding: 0px 15px !important;
+}
+.zoom, .small {
+	width: 100%;
+}
+.map_icons {
+	top: 8px;
+  right: -8px;
+}
+  .banner_content {
+    padding: 51px 7%;
+  }
+  .banner_content h1 {
+    font-size: 26px;
+	}
+	.banner_content p {
+		font-size: 14px;
+	}
+  .navbar-light .navbar-toggler-icon {
+    border-bottom: 1px solid #fff;
+  }
+  .navbar-light .navbar-toggler-icon:after,
+  .navbar-light .navbar-toggler-icon:before {
+    background-color: #fff;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext > span {
+    color: #000000 !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext {
+    padding: 21px 11px !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext > span {
+    font-size: 14px !important;
+  }
+  .wssearch img {
+    width: 23px;
+  }
+  .smllogo img {
+    width: 146px;
+  }
+  .wssearch a:first-child {
+    margin-right: 10px;
+  }
+  /*.wsmenu>.wsmenu-list>li>.wsshoptabing>.wsshopwp{
+	height: auto !important;
+}*/
+  .common_box {
+    margin-bottom: 11px;
+    padding:12px;
+  }
+  .main_heading {
+    font-size: 23px;
+  }
+  .content {
+    font-size: 13px;
+    padding-bottom: 10px;
+    line-height: 18px;
+  }
+  .common_sections {
+    padding: 40px 0px 10px !important;
+  }
+  .how_work_block {
+    padding-top: 0px;
+  }
+  .common_box h3 {
+    font-size: 14px;
+  }
+  .common_box p {
+    font-size: 14px;
+  }
+  .down_panel_trick a {
+    font-size: 15px;
+  }
+  .down_panel_trick p {
+    font-size: 13px;
+  }
+  .down_panel_trick {
+    padding: 31px 12px 31px 12px;
+  }
+  .inner_block img {
+    height: 215px;
+    width: 100%;
+  }
+  .inner_block {
+    margin-bottom: 30px;
+  }
+  .inner_block2 {
+    margin-top: 0px;
+  }
+  .city_content {
+   /* bottom: 21%;*/
+    bottom: 17%;
+    width: 100%;
+  }
+  .city_content h5{
+    margin-bottom: 15px;
+  }
+  .feature_inner_block img {
+    width: 100%;
+    height: 244px;
+  }
+  .feature_inner_block {
+    margin-bottom: 30px;
+  }
+  .feature_inner_block2 {
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  .explore_all {
+    margin-top: 0px;
+    font-size: 14px;
+    padding: 11px 28px;
+  }
+  .explore_city {
+    padding: 45px 0px 20px !important;
+  }
+  .how_work_block h5 {
+    font-size: 16px;
+  }
+  .how_work_block p {
+      font-size: 12px;
+    line-height: 18px;
+  }
+  .scale_content h4 {
+    font-size: 26px;
+  }
+  .scale_content span {
+    font-size: 20px;
+  }
+  .scale_content {
+    bottom: 24%;
+    display: block;
+    left: 0%;
+    margin-left: 0px;
+    top: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .or span {
+    font-size: 18px;
+  }
+  .or {
+    /*padding: 14px;*/
+    top: 47%;
+    left: 48%;
+  }
+  .search_box {
+		width: 100%;
+    background: transparent;
+  }
+  .city_serch {
+    background: #fff;
+    border-radius: 5px;
+  }
+  .category_search {
+    padding-top: 17px;
+    background: #fff;
+    margin: 11px 0px;
+    border-radius: 5px;
+  }
+  .selectBox {
+    width: 95%;
+  }
+  .search_box .web_btn {
+    font-size: 16px;
+    margin: 0px auto;
+    padding: 13px 43px !important;
+  }
+  .wsmenucontainer {
+    min-width: auto !important;
+  }
+  .scales .px-0 {
+    padding-right: 0px !important;
+  }
+  .owl-controls .owl-prev,
+  .owl-controls .owl-next {
+    width: 40px;
+    height: 40px;
+  }
+  .owl-controls .owl-prev em,
+  .owl-controls .owl-next em {
+    font-size: 20px;
+  }
+  .team-carousel .fa-angle-left{
+    top: 6px;
+    position: absolute;
+    left: 13px;
+  }
+  .team-carousel .fa-angle-right{
+    top: 6px;
+    position: absolute;
+    right: 13px;
+  }
+  /*ADD New CSS*/
+  .header.shrink-header{
+    top: 0px;
+    height: 80px;
+  }
+  .shrink-header .navbar-brand .logo{
+    width: 180px !important;
+    padding: 0px !important; 
+  }
+  .shrink-header .navbar .navbar-brand{
+    height: 80px !important;
+    line-height: 80px !important;
+    padding: 20px 0px;
+  }
+  .shrink-header .navbar{
+        min-height: 80px !important;
+  }
+  .viewall_btn{
+    display: block;
+  }
+  .tips_block_none{
+    display: none;
+  }
+  .footer-about-wrapper .footer-logo{
+    border-right: 0px solid #dbdbdb;
+        text-align: center;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer-about-wrapper .footer-about-text{
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .header-transparent .navbar-brand .logo{
+    width: 180px;
+    padding:5px 0px;
+  }
+  section{
+    padding-bottom: 30px;
+  }
+  .scales{
+      padding-bottom: 30px !important;
+  }
+  .tips_block a img{
+    width: 100%;
+  }
+  /*Search Page Css*/
+  .craftman_list_section .col-xl-3{
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .list_box{
+    width: auto !important;
+    margin-bottom: 30px !important;
+  }
+  .carftman_select_box select{
+    margin-bottom: 30px !important;
+  }
+
+  .result_box p{
+    padding: 10px 0px;
+  }
+  .sort_box p{
+    padding: 9px 0px !important;
+    text-align: left;
+    width: 35%;
+  }
+  .second_mark{
+      top: 46px !important;
+    }
+  .first_mark{
+    top: 45px !important;
+  }
+  .select_city_box{
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 0px 0px 35px;
+  }
+  .map_icons .fa-map-marker-alt:after{
+    margin-top: -17.5px !important;
+    height: 30px !important;
+  }
+  .selectArrow:after{
+        right: -30px ;
+          top: 1px;
+  }
+
+  .selected{
+    width: 100%;
+  }
+  .selected{
+    width: 100%;
+  }
+  .inner_main_banner{
+    height: 220px !important;
+    padding-top: 105px !important;
+  }
+  .craftman_list_section{
+    padding-top: 35px !important;
+  }
+  .result_sections{
+        padding: 14px 0px 12px;
+  }
+  .sort_box .arrow_img{
+    top: 12px;
+    right: 11px;
+  }
+  .custome_container_fuild{
+    width: 89%!important;
+  }
+  .result_box p{
+    font-size: 13px!important;
+    line-height: 18px;
+  }
+  .arrow_img img{
+    height:4px !important;
+  }
+  .sort_box p{
+    width: 34% !important;
+    font-size: 14px;
+  }
+  .sort_box select{
+        padding: 10px 27px 10px 12px;
+  }
+  .result_box{
+    padding: 0px;
+  }
+  .sort_box2{
+    padding: 0px;
+  }
+  /*Register page CSS*/
+  .confirm_pra p{
+    padding: 0px;
+  }
+  .search_box{
+    display: none;
+  }
+  .info_search{
+    display: none;
+  }
+  .explore_box_space{
+        padding: 0px 6px 0px 15px;
+  }
+  .explore_box_space2{
+    padding: 0px 15px 0px 7px;
+  }
+  .common_box a{
+    text-decoration: underline;
+    font-size: 11px;
+  }
+  .common_box h3{
+    font-size: 15px;
+  }
+   .common_box img{
+    width: 50px;
+   }
+  .common_box p{
+    display: none;
+  }
+  .explore_box{
+        margin-top: -129%;
+  }
+  .down_panel{
+    padding-top: 25px;
+  }
+  .how_work_block img{
+    width: 70px;
+  }
+  .team-carousel li{
+    margin-top: 0px;
+  }
+  .box .dealer-details{
+        bottom: 7px;
+  }
+  .team-section .box .dealer-name{
+        margin-bottom: -5px;
+        font-size: 17px;
+  }
+  .team-section .box .dealer-category{
+        margin-bottom: -11px;
+        font-size: 13px;
+  }
+  .box .star-ratings li{
+    margin-right: 0px;
+  }
+  .box .star-ratings i{
+    font-size: 10px;
+  }
+  .team-section{
+        padding: 0px 0px 45px 0px;
+  }
+  .owl-theme .owl-controls{
+    margin-top: 0px !important;
+  }
+  .tips_block{
+        margin-top: 25px;
+  }
+  .viewall_btn{
+    padding-top: 25px; 
+    padding-bottom: 30px;
+  }
+  .first_step_foem select{
+    width: 100%;
+  }
+  .first_step_foem input{
+    width: 100%;
+  }
+  .mandatory_form .experience_feild select{
+    width: 100%;
+  }
+  .mandatory_form .day_feild input{
+    width:100%;
+  }
+  .mandatory_form .team_field select{
+    width: 100%;
+  }
+  .arrow_img{
+        right: 37px;
+  }
+  .step_pra p{
+    font-size: 13px;
+      line-height: 19px;
+  }
+  .busi_pra p{
+    padding: 0px;
+  }
+  .email_acc p{
+    padding-top: 0px;
+    margin-left: 0px;
+  }
+  .step_inner_content hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .bottom_line hr{
+    margin: 20px 0px 20px !important;
+  }
+  .business_box li a p{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    font-size: 11px;
+  }
+  .business_box li a h5{
+        font-size: 15px;
+  }
+  .business_box .nav-link{
+    padding: 0px !important;
+  }
+  .business_options li{
+        padding: 0px 12px;
+    text-align: center;
+  }
+  .active_line{
+        width: 132px;
+    left: 21px;
+  }
+  .ver_line{
+    padding: 0px !important;
+    width: 1px;
+    height: 38px;
+  }
+  .nav-item::before{
+        background-color: #fff;
+        width: 0px;
+  }
+ .business_box ul{
+  margin-bottom: 0px;
+ }
+ .desing_list  ul li{
+  display: inline-block;
+      width: 48%;
+ }
+ .desing_list ul li label{
+  font-size: 13px !important;
+ }
+ .select_design_box h3{
+  padding-bottom: 15px;
+ }
+ .pre_btn{
+  margin-top: 15px;
+ }
+ .next_btn{
+  margin-top: 15px;
+ }
+
+ .burgermenu{
+  display: block !important;
+ }
+ .sidenav{
+  width: 100%;
+ }
+ .mobile_logo {
+  text-align: center;
+      margin-top: -30px;
+ }
+ .header.shrink-header .burgermenu span{
+  color: #000 !important;
+ }
+ .burgermenu_rightmenu ul{
+  margin-top: 0px !important;
+ }
+ .footer-about-wrapper .social_icons{
+  width: 100%;
+  display: block;
+  text-align: center;
+ }
+ /*Mobile  Step CSS*/
+  .steps_div{
+    visibility: hidden;
+  }
+ .mobile_step_div{
+  display: block;
+ }
+ .slick-slide{
+  height: auto;
+ }
+ .crafmen-detail-banner{
+  height: 80px;
+  padding: 0px;
+ }
+ .login-ul{
+  width: auto;
+ }
+ .login_tab_content{
+  padding: 50px 0px 0px;
+ }
+ .login_register_section{
+  margin-top: 0px;
+ }
+ .step_line {
+      width: 52px;
+ }
+ .form-contact-box{
+  padding: 1rem;
+ }
+ .contact-heding h5{
+      padding: 0px 5%;
+ }
+ .contact-form-wrapper h3{
+  padding: 0px;
+ }
+ .aboutus_banner .banner_content{
+      padding: 120px 30px;
+ }
+ .about_inner_content p{
+      padding: 0px 30px;
+ }
+ .pro_left_content h2{
+  font-size: 30px;
+ }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  .business_options li{
+      padding: 0px 9px !important;
+  }
+  .business_options li .activeb{
+    border: 0px !important;
+  }
+  .business_box li a p{
+    display: none!important;
+  }
+  .active_line{
+    left: 8px !important;
+  }
+  .business_options .ver_line{
+    padding: 0px !important;
+  }
+  .step_line {
+    width: 42px;
+  }
+  .desing_list ul li label {
+    font-size: 11px !important;
+  }
+  .next_btn{
+    width: 135px;
+  }
+  .pre_btn{
+    width: 135px;
+  }
+
+}
+@media (min-width: 375px) and (max-width: 480px) {
+  .business_options li{
+    padding: 0px 22px !important;
+  }
+  .business_options li .activeb{
+    border: 0px !important;
+  }
+  .business_box li a p{
+    display: none!important;
+  }
+  .active_line{
+       left: 18px !important;
+  }
+  .business_options .ver_line{
+    padding: 0px !important;
+  }
+  .step_line {
+    width: 69px;
+  }
+  .desing_list ul li label {
+    font-size: 11px !important;
+  }
+  .next_btn{
+    width: 135px;
+  }
+  .pre_btn{
+    width: 135px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner_content {
+    padding: 66px 7%;
+  }
+  .banner_content h1 {
+    font-size: 32px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    border-bottom: 1px solid #fff;
+  }
+  .navbar-light .navbar-toggler-icon:after,
+  .navbar-light .navbar-toggler-icon:before {
+    background-color: #fff;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext > span {
+    color: #000000 !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext {
+    padding: 21px 11px !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext > span {
+    font-size: 14px !important;
+  }
+  .wssearch img {
+    width: 23px;
+  }
+  .smllogo img {
+    width: 146px;
+  }
+  .wssearch a:first-child {
+    margin-right: 10px;
+  }
+  /*.wsmenu>.wsmenu-list>li>.wsshoptabing>.wsshopwp{
+	height: auto !important;
+}*/
+  .common_box {
+    margin-bottom: 30px;
+  }
+  .main_heading {
+    font-size: 23px;
+  }
+  .content {
+    font-size: 14px;
+  }
+  .common_sections {
+    padding: 41px 0px;
+  }
+  .how_work_block {
+    padding-top: 41px;
+  }
+  .scale_content{
+    bottom: 37%;
+  }
+  .or{
+    top: 47%;
+  }
+  .scale_content{
+    bottom: 37% !important;
+  }
+  .tips_block a img{
+    width: 100%;
+  }
+
+  .header.shrink-header{
+    top: 0px;
+    height: 80px;
+  }
+  .shrink-header .navbar-brand .logo{
+    width: 180px !important;
+    padding: 0px !important; 
+  }
+  .shrink-header .navbar .navbar-brand{
+    height: 80px !important;
+    line-height: 80px !important;
+    padding: 20px 0px;
+  }
+  .shrink-header .navbar{
+        min-height: 80px !important;
+  }
+  .selected{
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .banner_content {
+    padding: 66px 7%;
+  }
+  .banner_content h1 {
+    font-size: 32px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    border-bottom: 1px solid #fff;
+  }
+  .navbar-light .navbar-toggler-icon:after,
+  .navbar-light .navbar-toggler-icon:before {
+    background-color: #fff;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext > span {
+    color: #000000 !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext {
+    padding: 21px 11px !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext > span {
+    font-size: 14px !important;
+  }
+  .wssearch img {
+    width: 23px;
+  }
+  .smllogo img {
+    width: 146px;
+  }
+  .wssearch a:first-child {
+    margin-right: 10px;
+  }
+  /*.wsmenu>.wsmenu-list>li>.wsshoptabing>.wsshopwp{
+	height: auto !important;
+}*/
+  .common_box {
+    margin-bottom: 30px;
+  }
+  .main_heading {
+    font-size: 23px;
+  }
+  .content {
+    font-size: 14px;
+  }
+  .common_sections {
+    padding: 41px 0px;
+  }
+  .how_work_block {
+    padding-top: 41px;
+  }
+  .map_icons{
+    top: 26px !important;
+  }
+  .category_search{
+    padding-top: 34px !important;
+    background: #fff;
+    margin: 0px 0px !important;
+  }
+  .search_box .web_btn{
+    padding: 26px 43px !important;
+    border-radius: 0px !important;
+  }
+  .scale_content{
+    bottom: 26% !important;
+  }
+  .or{
+      top: 37% !important;
+      left: 50% !important;
+  }
+  .city_content{
+    bottom: 0% !important;
+    padding: 10px !important;
+  }
+  /*ADD New Css*/
+  .tips_block_none{
+    display: block;
+  }
+
+  
+  .header.shrink-header{
+    top: 0px;
+    height: 80px;
+  }
+  .shrink-header .navbar-brand .logo{
+    width: 180px !important;
+    padding: 0px !important; 
+  }
+  .shrink-header .navbar .navbar-brand{
+    height: 80px !important;
+    line-height: 80px !important;
+    padding: 20px 0px;
+  }
+  .shrink-header .navbar{
+        min-height: 80px !important;
+  }
+  .scale_content{
+        bottom: 29% !important;
+  }
+  .or{
+      top: 48% !important;
+    }
+  .second_mark {
+    top: 68px !important;
+  }
+  .craftman_list_section .col-xl-3{
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  .sort_box p{
+    text-align: right !important;
+    width: 54% !important;
+  }
+  .explore_box{
+    margin-top: -62% !important;
+  }
+  .common_box h3{
+    font-size: 14px;
+  }
+  .first_mark {
+    top: 68px !important;
+  }
+  .user_details{
+    padding-left: 67px;
+  }
+  .desing_list ul li{
+    display: contents;
+  }
+  .business_options li{
+    padding: 0px 30px;
+  }
+  .active_line{
+    left: 38px;
+  }
+  .step_line {
+    width: 182px;
+  }
+  .mobile_step_div{
+      padding-top: 30px;
+  }
+  .contact-heding h5{
+      padding: 0px 5%;
+ }
+ .contact-form-wrapper h3{
+  padding: 0px;
+ }
+ .aboutus_banner .banner_content{
+      padding: 120px 30px;
+ }
+ .about_inner_content p{
+      padding: 0px 30px;
+ }
+ .pro_left_content h2{
+  font-size: 30px;
+ }
+}
+@media (min-width: 993px) and (max-width: 1024px) {
+  .smllogo {
+    width: 177px !important;
+    padding: 9px 7px 0 9px !important;
+  }
+  .smllogo img {
+    width: 100%;
+  }
+  .wsmenu {
+    width: 77% !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext > span {
+    font-size: 11px !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext {
+    padding: 21px 7px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wsshopmyaccount > a {
+    padding: 0 15px 0 15px !important;
+    font-size: 11px;
+  }
+  .account_li img {
+    width: 20px;
+  }
+  .membership {
+    padding: 11px 11px !important;
+    font-size: 13px;
+    margin-left: 0px;
+  }
+  .wsmain {
+    padding: 0px 4px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wsshopmyaccount {
+    padding-top: 0px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wscarticon > .membership:hover {
+    color: #d2a784;
+  }
+  .wsmenu > .wsmenu-list > li:hover > .membership span {
+    color: #d2a784;
+  }
+  .wsmenu > .wsmenu-list > li.wscarticon > .membership {
+    color: #fff;
+  }
+  .wsmenu > .wsmenu-list > li > a:hover .fa-angle-down {
+    color: #fff;
+  }
+  .wsmenu > .wsmenu-list > .account_li:hover > a span {
+    color: #fff !important;
+  }
+  .wsmenu > .wsmenu-list > li:hover > a span {
+    color: #d2a784 !important;
+  }
+  .headerfull {
+    padding-top: 13px;
+  }
+  .wsmenu > .wsmenu-list > li > .wsshoptabing {
+    left: -25% !important;
+    width: 1006px !important;
+  }
+  .banner_content h1 {
+    font-size: 43px;
+  }
+  .banner_content p {
+    font-size: 14px;
+  }
+  .search_box {
+    width: 844px;
+  }
+  .selectBoxTop {
+    font-size: 17px;
+  }
+  .selectBox {
+    width: 147px;
+  }
+  .select_cat {
+    width: 100% !important;
+  }
+  .selectBoxTop2 {
+    font-size: 16px;
+  }
+  .search_box .web_btn {
+    padding: 16px 68px !important;
+  }
+  .common_box h3 {
+    font-size: 16px;
+  }
+  .common_box p {
+    font-size: 14px;
+  }
+  .main_heading {
+    font-size: 35px;
+  }
+  .inner_block2 {
+    margin-top: 22px;
+  }
+  .feature_inner_block2 {
+    margin-top: 27px;
+  }
+  .scale_content span {
+    font-size: 20px;
+  }
+  .scale_content h4 {
+    font-size: 29px;
+  }
+  .scale_content {
+    margin-left: -22px;
+  }
+  .footer-about-wrapper .footer-about-text {
+    font-size: 11px;
+  }
+  .footer-links-wrapper .footer-links li a {
+    font-size: 14px;
+  }
+  .header.shrink-header{
+    top: 0px;
+    height: 80px;
+  }
+  .shrink-header .navbar-brand .logo{
+    width: 180px !important;
+    padding: 0px !important; 
+  }
+  .shrink-header .navbar .navbar-brand{
+    height: 80px !important;
+    line-height: 80px !important;
+    padding: 20px 0px;
+  }
+  .shrink-header .navbar{
+        min-height: 80px !important;
+  }
+  .or {
+    top: 48%;
+    left: 50%;
+  }
+  .tips_block_none{
+    display: block;
+  }
+
+  .category_search{
+    margin: 0px;
+  }
+  .search_box .web_btn {
+    padding: 26px 68px !important;
+    border-radius: 0px;
+  }
+  .category_search{
+      padding-top: 30px !important;
+  }
+  .map_icons {
+    top: 22px!important;  
+  }
+  .craftman_list_section .col-xl-3{
+    flex: 0 0 33.333% !important;
+    max-width: 33.333% !important;
+  }
+  .list_box{
+    width: auto !important;
+  }
+  .carftman_select_box label{
+      font-size: 13px;
+  }
+  .carftman_select_box i{
+      top: 40px;
+  }
+  .sort_box p{
+      width: 68%;
+  }
+
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .smllogo {
+    width: 177px !important;
+    padding: 9px 7px 0 9px !important;
+  }
+  .smllogo img {
+    width: 100%;
+  }
+  .wsmenu {
+    width: 80% !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext > span {
+    font-size: 11px !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext {
+    padding: 21px 11px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wsshopmyaccount > a {
+    padding: 0 15px 0 15px !important;
+    font-size: 11px;
+  }
+  .account_li img {
+    width: 20px;
+  }
+  .membership {
+    padding: 11px 11px !important;
+    font-size: 13px;
+    margin-left: 0px;
+  }
+  .wsmain {
+    padding: 0px 4px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wsshopmyaccount {
+    padding-top: 0px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wscarticon > .membership:hover {
+    color: #d2a784;
+  }
+  .wsmenu > .wsmenu-list > li:hover > .membership span {
+    color: #d2a784;
+  }
+  .wsmenu > .wsmenu-list > li.wscarticon > .membership {
+    color: #fff;
+  }
+  .wsmenu > .wsmenu-list > li > a:hover .fa-angle-down {
+    color: #fff;
+  }
+  .wsmenu > .wsmenu-list > .account_li:hover > a span {
+    color: #fff !important;
+  }
+  .wsmenu > .wsmenu-list > li:hover > a span {
+    color: #d2a784 !important;
+  }
+  .headerfull {
+    padding-top: 13px;
+  }
+  .wsmenu > .wsmenu-list > li > .wsshoptabing {
+    left: -25% !important;
+    width: 1006px !important;
+  }
+  .banner_content h1 {
+    font-size: 43px;
+  }
+  .banner_content p {
+    font-size: 14px;
+  }
+  .search_box {
+    width: 844px;
+  }
+  .selectBoxTop {
+    font-size: 17px;
+  }
+  .selectBox {
+    width: 147px;
+  }
+  .select_cat {
+    width: 100% !important;
+  }
+  .selectBoxTop2 {
+    font-size: 16px;
+  }
+  .search_box .web_btn {
+    padding: 16px 68px !important;
+  }
+  .common_box h3 {
+    font-size: 16px;
+  }
+  .common_box p {
+    font-size: 14px;
+  }
+  .main_heading {
+    font-size: 35px;
+  }
+  .inner_block2 {
+    margin-top: 22px;
+  }
+  .feature_inner_block2 {
+    margin-top: 27px;
+  }
+  .scale_content span {
+    font-size: 20px;
+  }
+  .scale_content h4 {
+    font-size: 29px;
+  }
+  .scale_content {
+    margin-left: -142px;
+  }
+  .footer-about-wrapper .footer-about-text {
+    font-size: 11px;
+  }
+  .footer-links-wrapper .footer-links li a {
+    font-size: 14px;
+  }
+  .custome_container_fuild {
+    width: 100%!important;
+    margin: 0px auto!important;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1280px) {
+  .smllogo {
+    width: 208px !important;
+    padding: 9px 7px 0 9px !important;
+  }
+  .smllogo img {
+    width: 100%;
+  }
+  .wsmenu {
+    width: 81% !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext > span {
+    font-size: 13px !important;
+  }
+  .wsmenu > .wsmenu-list > li > .navtext {
+    padding: 21px 15px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wsshopmyaccount > a {
+    padding: 0 21px 0 21px !important;
+    font-size: 12px;
+  }
+  .account_li img {
+    width: 28px;
+  }
+  .membership {
+    padding: 11px 11px !important;
+    font-size: 13px;
+    margin-left: 0px;
+  }
+  .wsmain {
+    padding: 0px 4px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wsshopmyaccount {
+    padding-top: 0px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wscarticon > .membership:hover {
+    color: #d2a784;
+  }
+  .wsmenu > .wsmenu-list > li:hover > .membership span {
+    color: #d2a784;
+  }
+  .wsmenu > .wsmenu-list > li.wscarticon > .membership {
+    color: #fff;
+  }
+  .wsmenu > .wsmenu-list > li > a:hover .fa-angle-down {
+    color: #fff;
+  }
+  .wsmenu > .wsmenu-list > .account_li:hover > a span {
+    color: #fff !important;
+  }
+  .wsmenu > .wsmenu-list > li:hover > a span {
+    color: #d2a784 !important;
+  }
+  .headerfull {
+    padding-top: 13px;
+  }
+  .wsmenu > .wsmenu-list > li > .wsshoptabing {
+    left: -25% !important;
+    width: 1006px !important;
+  }
+  .banner_content h1 {
+    font-size: 43px;
+  }
+  .banner_content p {
+    font-size: 14px;
+  }
+  .search_box {
+    width: 844px;
+  }
+  .selectBoxTop {
+    font-size: 17px;
+  }
+  .selectBox {
+    width: 147px;
+  }
+  .select_cat {
+    width: 100% !important;
+  }
+  .selectBoxTop2 {
+    font-size: 16px;
+  }
+  .search_box .web_btn {
+    padding: 16px 68px !important;
+  }
+  .common_box h3 {
+    font-size: 16px;
+  }
+  .common_box p {
+    font-size: 14px;
+  }
+  .main_heading {
+    font-size: 35px;
+  }
+  .inner_block2 {
+    margin-top: 22px;
+  }
+  .feature_inner_block2 {
+    margin-top: 27px;
+  }
+  .scale_content span {
+    font-size: 20px;
+  }
+  .scale_content h4 {
+    font-size: 29px;
+  }
+  .scale_content {
+    margin-left: -142px;
+  }
+  .footer-about-wrapper .footer-about-text {
+    font-size: 11px;
+  }
+  .footer-links-wrapper .footer-links li a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1281px) {
+  .wsmenu > .wsmenu-list > li > .wsshoptabing {
+    left: -32% !important;
+    width: 1516px !important;
+  }
+  .wsmenu > .wsmenu-list > li > .wsshoptabing {
+    top: 85px !important;
+  }
+  .wsmain {
+    padding: 19px 0px 0px 30px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wscarticon {
+    padding-top: 19px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wsshopmyaccount {
+    padding-top: 16px !important;
+  }
+  .wsmenu > .wsmenu-list > li.wscarticon > .membership:hover {
+    color: #d2a784;
+  }
+  .wsmenu > .wsmenu-list > li:hover > .membership span {
+    color: #d2a784;
+  }
+  .wsmenu > .wsmenu-list > li.wscarticon > .membership {
+    color: #fff;
+  }
+  .wsmenu > .wsmenu-list > li > a:hover .fa-angle-down {
+    color: #fff;
+  }
+  .wsmenu > .wsmenu-list > .account_li:hover > a span {
+    color: #fff !important;
+  }
+  .wsmenu > .wsmenu-list > li:hover > a span {
+    color: #d2a784 !important;
+  }
+  .wsmenu > .wsmenu-list > li > .wsmegamenu {
+    top: 78px !important;
+  }
+  .wsmenu > .wsmenu-list > li .wstliststy06 li {
+    line-height: 31px !important;
+  }
+  .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu {
+    margin-left: -77px;
+  }
+  .container {
+    max-width: 1170px !important;
+  }
+
+/*  .list_box{
+      width: 330px;
+  }*/
+  .custom_container{
+    padding: 0px;
+  }
+  .account_li img {
+    width: 28px;
+  }
+  .account_li span {
+    font-size: 11px;
+  }
+
+  .wsmenu > .wsmenu-list > li > .navtext {
+    padding: 34px 8px;
+  }
+
+}
+/* 110% laptop */
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .selectBox {
+    width: 100%;
+    float: none;
+  }
+  .banner_content h1 {
+    font-size: 35px;
+  }
+  .main_banner {
+    padding-top: 180px;
+    height: 600px;
+  }
+  .web_btn {
+    margin-top: 8px;
+  }
+  .explore_box,
+  .scales {
+    padding-bottom: 50px !important;
+  }
+  .down_panel {
+    padding-bottom: 0px !important;
+  }
+  .explore_city {
+    padding-bottom: 60px !important;
+  }
+  .featured_cat {
+    padding-top: 50px !important;
+  }
+  .navbar > .container-fluid {
+    padding: 0px 15px !important;
+  }
+  .footer-about-wrapper .container-fluid {
+    padding: 0px 15px !important;
+  }
+  .header .navbar-nav > li > a {
+    font-size: 13px;
+  }
+  .header .navbar-nav > li {
+    margin: 0px 10px;
+  }
+  .navbar-brand img {
+    max-width: 70%;
+  }
+  .module .module-icon img {
+    max-width: 20px;
+    height: 20px;
+  }
+  .right-cart-menu span {
+    font-size: 12px;
+  }
+  .module-cart-2 .cart-icon-btn span {
+    font-size: 12px;
+  }
+  .module-cart-2 .cart-icon-btn {
+    width: auto;
+    padding: 0px 15px;
+  }
+  .vertical-divider {
+    margin-right: 15px !important ;
+  }
+  .header-transparent {
+    top: 0px;
+  }
+  .module-cart-2 .cart-icon-btn {
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0px 11px;
+  }
+  .header .navbar-brand {
+    margin-right: 0px;
+    max-width: 14%;
+  }
+  .navbar-brand img {
+    max-width: 100%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px) {
+}
+/* 100% */
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .selectBox {
+    width: 100%;
+    float: none;
+  }
+  .banner_content h1 {
+    font-size: 35px;
+  }
+  .main_banner {
+    padding-top: 180px;
+    height: 600px;
+  }
+  .web_btn {
+    margin-top: 8px;
+  }
+  .explore_box,
+  .scales {
+    padding-bottom: 50px !important;
+  }
+  .down_panel {
+    padding-bottom: 0px !important;
+  }
+  .explore_city {
+    padding-bottom: 60px !important;
+  }
+  .featured_cat {
+    padding-top: 50px !important;
+  }
+  .navbar > .container-fluid {
+    padding: 0px 15px !important;
+  }
+  .footer-about-wrapper .container-fluid {
+    padding: 0px 15px !important;
+  }
+  .header .navbar-nav > li > a {
+    font-size: 14px;
+  }
+  .header .navbar-nav > li {
+    margin: 0px 10px;
+  }
+  .header .navbar-brand {
+    margin-right: 0px;
+    max-width: 14%;
+  }
+  .navbar-brand img {
+    max-width: 100%;
+  }
+  .module .module-icon img {
+    max-width: 20px;
+    height: 20px;
+  }
+  .right-cart-menu span {
+    font-size: 12px;
+  }
+  .module-cart-2 .cart-icon-btn span {
+    font-size: 12px;
+  }
+  .module-cart-2 .cart-icon-btn {
+    width: auto;
+    padding: 0px 15px;
+  }
+  .vertical-divider {
+    margin-right: 15px !important ;
+  }
+  .header-transparent {
+    top: 0px;
+  }
+
+
+}
+/* 90 media query */
+@media (min-width: 1300px) and (max-width: 1440px) {
+  .header .navbar-brand {
+    margin-right: 0px;
+    max-width: 14%;
+  }
+  .navbar > .container-fluid {
+    padding: 0px 15px !important;
+  }
+  .footer-about-wrapper .container-fluid {
+    padding: 0px 15px !important;
+  }
+  .header .navbar-nav > li > a {
+    font-size: 15px;
+  }
+  .header .navbar-nav > li {
+    margin: 0px 13px;
+  }
+
+  .module .module-icon img {
+    max-width: 20px;
+    height: 20px;
+  }
+  .right-cart-menu span {
+    font-size: 12px;
+  }
+  .module-cart-2 .cart-icon-btn span {
+    font-size: 12px;
+  }
+  .module-cart-2 .cart-icon-btn {
+    width: auto;
+    padding: 0px 25px;
+  }
+  .vertical-divider {
+    margin-right: 15px !important ;
+  }
+  /*.header-transparent {
+    top: 0px;
+  }*/
+  .main_banner {
+    /*padding-top: 235px;*/
+    padding-top: 190px !important;
+  }
+  .inner_main_banner{
+    padding-top: 160px !important;
+  }
+  
+  
+}
+
+@media (min-width: 993px) and (max-width: 1000px) {
+  .navbar > .container-fluid {
+    padding: 0px 15px !important;
+  }
+  .footer-about-wrapper .container-fluid {
+    padding: 0px 15px !important;
+  }
+  .header .navbar-nav > li > a {
+    font-size: 13px;
+  }
+  .header .navbar-nav > li {
+    margin: 0px 10px;
+  }
+  .navbar-brand img {
+    max-width: 70%;
+  }
+  .module .module-icon img {
+    max-width: 20px;
+    height: 20px;
+  }
+  .right-cart-menu span {
+    font-size: 12px;
+  }
+  .module-cart-2 .cart-icon-btn span {
+    font-size: 12px;
+  }
+  .module-cart-2 .cart-icon-btn {
+    width: auto;
+    padding: 0px 15px;
+  }
+  .vertical-divider {
+    margin-right: 15px !important ;
+  }
+  .header-transparent {
+    top: 0px;
+  }
+}
+
+/* slide menu */
+@media (min-width: 300px) and (max-width: 1366px) {
+
+/*  .navbar-expand-lg .navbar-nav{
+    visibility: hidden;
+  }*/
+  /*ADD New CSS */
+  .module .module-icon img{
+    max-width: 25px !important;
+    height: 25px !important;
+  }
+.burgermenu {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 99999999 !important ;
+}
+.right-cart-menu {
+  margin-right: 4px;
+}
+.slidmenu{
+  width: 300px;
+  top: 0px;
+  right: -300px;
+  position: fixed;
+  visibility: hidden;
+  height: 100%;
+  background: #fff;
+  transition: ease-in-out 0.5s;
+  overflow: hidden;
+
+}
+.slidmenuslide {
+  right: 0px;
+  visibility: visible;
+  transition: ease-in-out 0.5s;
+  overflow: visible;
+  z-index: 99999;
+}
+body{
+  overflow-x: hidden;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+}
+} 
+@media (max-width: 1400px) {
+  .box .dealer-experience a {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+  .team-section .box .dealer-name {
+    font-size: 18px;
+  }
+  .team-section .box .dealer-category {
+    font-size: 15px;
+  }
+  .craftman_list_section .col-xl-3{
+    flex: 0 0 33.3333% ;
+    max-width: 33.3333% ;
+  }
+  .content_holder h2{
+    font-size: 22px;
+  }
+  .location_name{
+    font-size: 16px;
+  }
+  .custome_container_fuild{
+    width: 78%!important;
+   margin: 0px auto; 
+  }
+  
+}
+@media (min-width: 1200px){
+  .custom_container{
+        max-width: 1140px;
+  }
+}
+.list_box{
+    width: 330px;
+    margin: 0px auto 30px;
+  }
+  .custome_container_fuild{
+    width: 95%;
+   margin: 0px auto; 
+  }
+ @media screen and (min-width: 1600px) {
+  .custome_container_fuild {
+        width: 80%;   
+  }
+  .membership-dialog-box{
+    top: 33%;
+  }
+  .location_name{
+        font-size: 18px;
+  }
+  .progess_bar{
+    font-size: 18px;
+    padding: 4px 5px;
+    width: 40px;
+    height: 40px;
+  }
+  .myaccountdropdown{
+      top: 98px;
+  }
+  .login_tab_content{
+    min-height: 672px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .custome_container_fuild {
+        width: 72%;
+  }
+  .membership-dialog-box{
+    top: 33%;
+  }
+  .location_name{
+        font-size: 18px;
+  }
+  .progess_bar{
+    font-size: 18px;
+    padding: 4px 5px;
+    width: 40px;
+    height: 40px;
+  }
+  .login_tab_content{
+    min-height: 672px;
+  }
+}
