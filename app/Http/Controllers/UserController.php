@@ -37,13 +37,21 @@ class UserController extends Controller
         }
         // $user_list = User::where('role_id','7')->orderBy('id','DESC')->get();
         $user_list = User::where('role_id','!=','1')->with('roles')->orderBy('id','DESC')->get();
+
+        // Pre-load all roles as an id→name map to avoid per-user queries
+        $roleMap = Role::pluck('name', 'id');
+
         foreach ($user_list as $value) {
             if($value->image != '' && file_exists(public_path('uploads/users/').$value->image)){
                 $value->image_thumb_path = asset('uploads/users/thumb/').'/'.$value->image;
             } else {
                 $value->image_thumb_path = asset('uploads/users/').'/'.'no-image.jpg';
             }
-            
+
+            // Resolve role name: Spatie relationship → role_id lookup → '-'
+            $value->role_display_name = $value->roles->first()->name
+                ?? $roleMap[$value->role_id]
+                ?? '-';
         }
 
         return view('users.index',compact('user_list'))

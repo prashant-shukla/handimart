@@ -55,7 +55,7 @@
                             <td>{{ $user_data->email }}</td>
                             <td>{{ $user_data->phone }}</td>
                             <td>{{ date('d-m-Y', strtotime($user_data->created_at)) }}</td>
-                            <td><a href="#" class="badge badge-success">{{ $user_data->roles->first()->name ?? $user_data->public_name ?? '-' }}<a></td>
+                            <td><a href="#" class="badge badge-success">{{ $user_data->role_display_name }}<a></td>
                             <td class="text-right">
                               <div class="dropdown">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
