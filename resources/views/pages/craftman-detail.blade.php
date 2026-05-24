@@ -79,7 +79,7 @@
                                     <p class="mb-0 dark-color fz15 fw500 list-inline-item mb5-sm"><i
                                             class="fas fa-star vam fz15 review-color me-2"></i> 4.82 94 reviews</p>
                                     <p class="mb-0 dark-color fz15 fw500 list-inline-item ml15 mb5-sm ml0-xs"><i
-                                            class="flaticon-place vam fz20 me-2"></i> {{ $user->city->name }},{{ $user->state->name }}</p>
+                                            class="flaticon-place vam fz20 me-2"></i> {{ optional($user->cities)->name ?? '-' }}, {{ optional($user->states)->name ?? '-' }}</p>
                                     <p class="mb-0 dark-color fz15 fw500 list-inline-item ml15 mb5-sm ml0-xs"><i
                                             class="flaticon-30-days vam fz20 me-2"></i>Member since {{$user->created_at}}</p>
                                 </div>
@@ -503,7 +503,7 @@
                             <div class="category-list mt20">
                                 <a class="d-flex align-items-center justify-content-between bdrb1 pb-2" href="#">
                                     <span class="text"><i class="flaticon-place text-thm2 pe-2 vam"></i>Location</span>
-                                    <span class="">{{ $user->city->name }},{{ $user->state->name }}</span>
+                                    <span class="">{{ optional($user->cities)->name ?? '-' }}, {{ optional($user->states)->name ?? '-' }}</span>
                                 </a>
 
 

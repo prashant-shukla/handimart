@@ -157,7 +157,7 @@ class HomeController extends Controller
         $skills = explode(",",$b_details->skills);
         else
         $skills = array();
-        $user = User::where('id',$id)->with('comments')->first();
+        $user = User::where('id',$id)->with(['comments', 'cities', 'states'])->first();
 
         $content = CompanySetting::first();
         return view('pages/craftman-detail',compact('content','image_gallery','video','user','b_details','skills'));
