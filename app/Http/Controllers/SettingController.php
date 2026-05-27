@@ -134,6 +134,11 @@ class SettingController extends Controller
         } else {
             $company_setting->favicon_thumb_path = "https://via.placeholder.com/50x50";
         }
+        if($company_setting->company_profile_logo != '' && file_exists(public_path('uploads/company_profile/').$company_setting->company_profile_logo)){
+            $company_setting->company_profile_logo_thumb_path = asset('uploads/company_profile/thumb/').'/'.$company_setting->company_profile_logo;
+        } else {
+            $company_setting->company_profile_logo_thumb_path = "https://via.placeholder.com/100x100";
+        }
         return view('setting.theme_setting',compact('company_setting'));
     }
     
@@ -147,6 +152,7 @@ class SettingController extends Controller
             'logo_file' => 'mimes:jpg,jpeg,png|max:2048',
             'dark_logo_file' => 'mimes:jpg,jpeg,png|max:2048',
             'favicon_file' => 'mimes:jpg,jpeg,png,ico|max:2048',
+            'company_profile_logo_file' => 'mimes:jpg,jpeg,png|max:2048',
         ]);
         $input = $request->all();
         $company_setting = CompanySetting::first();
@@ -189,6 +195,20 @@ class SettingController extends Controller
         }
         unset($input['favicon_file']);
         $input['favicon'] = $fileName_fav;
+
+        if(isset($request->company_profile_logo_file)) {
+            $fileName_comp = 'company_profile_'.time().'.'.$request->company_profile_logo_file->extension();  
+            $thumb = Image::make($request->company_profile_logo_file->getRealPath())->resize(150, 150, function ($constraint) {
+                $constraint->aspectRatio(); //maintain image ratio
+            });
+            $request->company_profile_logo_file->move(public_path('uploads/company_profile'), $fileName_comp);
+            $thumb->save(public_path('uploads/company_profile/thumb/').$fileName_comp);
+        } else{
+            $fileName_comp = $company_setting->company_profile_logo;
+        }
+        unset($input['company_profile_logo_file']);
+        $input['company_profile_logo'] = $fileName_comp;
+
         $company_setting->update($input);
        
         return redirect()->route('setting')

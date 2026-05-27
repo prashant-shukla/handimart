@@ -492,7 +492,7 @@
                                         <a class="d-flex align-items-center justify-content-between bdrb1 pb-2"
                                             href="#">
                                             <span class="text"><i
-                                                    class="fa-solid fa-phone text-thm2 pe-2 vam"></i>Content</span>
+                                                    class="fa-solid fa-phone text-thm2 pe-2 vam"></i>Contact</span>
                                             <span class="">{{ $user->phone }}</span>
                                         </a>
 

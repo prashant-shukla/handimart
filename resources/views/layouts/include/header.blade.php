@@ -42,7 +42,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto pe-0 pe-xl-3">
+                    <!-- <div class="col-auto pe-0 pe-xl-3">
                         <div class="d-flex align-items-center">
                             <a class="login-info" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><span
                                     class="flaticon-loupe"></span></a>
@@ -68,7 +68,102 @@
                                     href="{{ route('frontregister') }}">Join</a>
                             @endif
                         </div>
-                    </div>
+                    </div> -->
+                    <div class="col-auto pe-0 pe-xl-3">
+    <div class="d-flex align-items-center">
+
+        <!-- Search -->
+        <a class="login-info" data-bs-toggle="modal"
+            href="#exampleModalToggle" role="button">
+            <span class="flaticon-loupe"></span>
+        </a>
+
+        <!-- Become Member -->
+        <a class="login-info mx15-xl mx30" href="">
+            <span class="d-none d-xl-inline-block">
+                Become a
+            </span>
+            Member
+        </a>
+
+        @if (Auth::check())
+
+            <!-- Profile Dropdown -->
+            <div class="dropdown ms-3">
+
+                <a href="#"
+                    class="login-info d-flex align-items-center dropdown-toggle text-decoration-none"
+                    id="profileDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+
+                    <img class="userimg me-2"
+                        src="{{ get_user_profile_pic(Auth::user()->id) }}"
+                        alt="usericon">
+
+                    My Profile
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="profileDropdown">
+
+                    @if (Auth::user()->role_id != '7')
+                        <li>
+                            <a class="dropdown-item"
+                                href="{{ url('/') . '/' . get_dashboard_path() }}">
+                                Dashboard
+                            </a>
+                        </li>
+                    @endif
+
+                    <li>
+                        <a class="dropdown-item"
+                            href="{{ url('/') . '/' . get_profile_path() }}">
+                            My Profile
+                        </a>
+                    </li>
+
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item"
+                            href="{{ route('logout') }}"
+                            onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">
+                            Logout
+                        </a>
+
+                        <form id="logout-form"
+                            action="{{ route('logout') }}"
+                            method="POST"
+                            class="d-none">
+                            @csrf
+                        </form>
+                    </li>
+
+                </ul>
+            </div>
+
+        @else
+
+            <!-- Login -->
+            <a class="login-info mr15-xl mr30"
+                href="{{ route('login') }}">
+                Sign in
+            </a>
+
+            <!-- Register -->
+            <a class="ud-btn add-joining bdrs50 text-thm2"
+                href="{{ route('frontregister') }}">
+                Join
+            </a>
+
+        @endif
+
+    </div>
+</div>
                 </div>
             </div>
         </nav>
@@ -176,7 +271,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto pe-0 pe-xl-3">
+                    <!-- <div class="col-auto pe-0 pe-xl-3">
                         <div class="d-flex align-items-center">
                             <a class="login-info" data-bs-toggle="modal" href="#exampleModalToggle"
                                 role="button"><span class="flaticon-loupe"></span></a>
@@ -202,7 +297,104 @@
                                     href="{{ route('frontregister') }}">Join</a>
                             @endif
                         </div>
-                    </div>
+                    </div> -->
+
+                    <div class="col-auto pe-0 pe-xl-3">
+    <div class="d-flex align-items-center">
+
+        <!-- Search -->
+        <a class="login-info" data-bs-toggle="modal"
+            href="#exampleModalToggle" role="button">
+            <span class="flaticon-loupe"></span>
+        </a>
+
+        <!-- Become Member -->
+        <a class="login-info mx15-xl mx30" href="">
+            <span class="d-none d-xl-inline-block">
+                Become a
+            </span>
+            Member
+        </a>
+
+        @if (Auth::check())
+
+            <!-- Profile Dropdown -->
+            <div class="dropdown ms-3">
+
+                <a href="#"
+                    class="login-info d-flex align-items-center dropdown-toggle text-decoration-none"
+                    id="profileDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+
+                    <img class="userimg me-2"
+                        src="{{ get_user_profile_pic(Auth::user()->id) }}"
+                        alt="usericon">
+
+                    My Profile
+                </a>
+
+                <ul class="dropdown-menu sub-menu dropdown-menu-end"
+                    aria-labelledby="profileDropdown">
+
+                    @if (Auth::user()->role_id != '7')
+                        <li>
+                            <a class="dropdown-item"
+                                href="{{ url('/') . '/' . get_dashboard_path() }}">
+                                Dashboard
+                            </a>
+                        </li>
+                    @endif
+
+                    <li>
+                        <a class="dropdown-item"
+                            href="{{ url('/') . '/' . get_profile_path() }}">
+                            My Profile
+                        </a>
+                    </li>
+
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item  fw-bold"
+                            href="{{ route('logout') }}"
+                            onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">
+                           <strong> Logout</strong>
+                        </a>
+
+                        <form id="logout-form"
+                            action="{{ route('logout') }}"
+                            method="POST"
+                            class="d-none">
+                            @csrf
+                        </form>
+                    </li>
+
+                </ul>
+            </div>
+
+        @else
+
+            <!-- Login -->
+            <a class="login-info mr15-xl mr30"
+                href="{{ route('login') }}">
+                Sign in
+            </a>
+
+            <!-- Register -->
+            <a class="ud-btn add-joining bdrs50 text-thm2"
+                href="{{ route('frontregister') }}">
+                Join
+            </a>
+
+        @endif
+
+    </div>
+</div>
+
                 </div>
             </div>
         </nav>

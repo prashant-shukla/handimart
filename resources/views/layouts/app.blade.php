@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    
     <title>{{ config('app.name', 'HandiMart') }}</title>
     <!-- Scripts -->
     <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
@@ -36,7 +37,9 @@
     <!-- End layout styles -->
     <link rel="shortcut icon" href="{{ admin_favicon() }}" />
 </head>
-
+    @php
+        $company_setting = \App\CompanySetting::first();
+    @endphp
 <body>
     <div id="app">
         <div class="main-wrapper">
@@ -670,41 +673,47 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown nav-profile">
+                            
                                 <a class="nav-link dropdown-toggle" href="#" id="profileDropdown"
                                     role="button" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
-                                    <img src="https://via.placeholder.com/30x30" alt="profile">
-                                </a>
+  <img src="{{ $company_setting && $company_setting->company_profile_logo
+            ? asset('/uploads/company_profile/thumb/' . $company_setting->company_profile_logo)
+            : asset('admin/assets/images/default-user.png') }}"
+        alt="profile">                                </a>
                                 <div class="dropdown-menu" aria-labelledby="profileDropdown">
                                     <div class="dropdown-header d-flex flex-column align-items-center">
-                                        <div class="figure mb-3">
-                                            <img src="https://via.placeholder.com/80x80" alt="">
-                                        </div>
+             <div class="figure mb-3">
+    <img src="{{ $company_setting && $company_setting->company_profile_logo
+            ? asset('/uploads/company_profile/thumb/' . $company_setting->company_profile_logo)
+            : asset('admin/assets/images/default-user.png') }}"
+        alt="profile">
+</div>
                                         <div class="info text-center">
-                                            <p class="name font-weight-bold mb-0">Amiah Burton</p>
-                                            <p class="email text-muted mb-3">amiahburton@gmail.com</p>
+                                            <p class="name font-weight-bold mb-0">{{ $company_setting ? $company_setting->company_name : 'Default Company' }}</p>
+                                            <p class="email text-muted mb-3">{{ $company_setting ? $company_setting->email : 'email@example.com' }}</p>
                                         </div>
                                     </div>
                                     <div class="dropdown-body">
                                         <ul class="profile-nav p-0 pt-3">
-                                            <li class="nav-item">
+                                            <!-- <li class="nav-item">
                                                 <a href="pages/general/profile.html" class="nav-link">
                                                     <i data-feather="user"></i>
                                                     <span>Profile</span>
                                                 </a>
-                                            </li>
+                                            </li> -->
                                             <li class="nav-item">
-                                                <a href="javascript:;" class="nav-link">
+                                                <a href="{{ route('setting') }}" class="nav-link">
                                                     <i data-feather="edit"></i>
                                                     <span>Edit Profile</span>
                                                 </a>
                                             </li>
-                                            <li class="nav-item">
+                                            <!-- <li class="nav-item">
                                                 <a href="javascript:;" class="nav-link">
                                                     <i data-feather="repeat"></i>
                                                     <span>Switch User</span>
                                                 </a>
-                                            </li>
+                                            </li> -->
                                             <li class="nav-item">
                                                 <a href="{{ route('logout') }}" class="nav-link">
 

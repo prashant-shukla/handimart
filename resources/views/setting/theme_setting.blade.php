@@ -90,6 +90,23 @@
                         </div>
                     </div>
                     <hr>
+                    <div class="row">
+                        <div class="col-md-6 mt-20" >
+                            <div class="form-group">
+                                <label for="company_profile_logo_file"> Company Profile</label>
+                                <input type="file" id="company_profile_logo_file" name="company_profile_logo_file" class="file-upload-default" onchange="loadCompanyProfileLogo(event)">
+                                <div class="input-group col-xs-12">
+                                    <input type="text" class="form-control file-upload-info" disabled="" placeholder="Company_Profile_Logo">
+                                    <span class="input-group-append">
+                                        <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center" style="margin-top: 20px;">
+                            <img class="rounded profileImage updateFavicon " src="{{$company_setting->company_profile_logo_thumb_path}}" alt="profile" id="company_profile_logo_preview" >
+                        </div>
+                    </div>
                     <input class="btn btn-primary formsubmit" style="width: 140px; height: 40px;" type="submit" value="Submit">
                 </fieldset>
             </div>
@@ -109,6 +126,10 @@
     };
     var loadFavicon = function(event) {
         var image = document.getElementById('favicon_preview');
+        image.src = URL.createObjectURL(event.target.files[0]);
+    };
+    var loadCompanyProfileLogo = function(event) {
+        var image = document.getElementById('company_profile_logo_preview');
         image.src = URL.createObjectURL(event.target.files[0]);
     };
 </script>

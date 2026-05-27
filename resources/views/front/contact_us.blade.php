@@ -45,14 +45,15 @@
                                 <div class="icon flex-shrink-0"><span class="flaticon-call"></span></div>
                                 <div class="details">
                                     <h5 class="title">Phone</h5>
-                                    <p class="mb-0 text">+(91) {{ $content->phone }} , {{ $content->mobile }}</p>
+                               
+                                    <p class="mb-0 text ">+(91) {{ $content->phone }} , +(91) {{ $content->mobile }}</p>
                                 </div>
                             </div>
                             <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
                                 <div class="icon flex-shrink-0"><span class="flaticon-mail"></span></div>
                                 <div class="details">
-                                    <h5 class="title">Email</h5>
-                                    <p class="mb-0 text">{{ $content->email }}</p>
+                                    <h5 class="title">Email for Inquiries & Job</h5>
+                                    <p class="mb-0 text " >{{ $content->email }} , {{ $content->career_email }}</p>
                                 </div>
                             </div>
                         @else
@@ -119,112 +120,160 @@
     <section class="p-0 wow fadeInUp" data-wow-delay="300ms">
         <div class="mx-auto maxw1700 bdrs16 position-relative mx20-lg">
             <iframe class="contact-page-map" loading="lazy"
-                src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14304.602125638285!2d73.06580100484454!3d26.32162472346856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418d4f53cf6ca9%3A0x158aa378c6375da7!2sNarayan%20Art%20%26%20Craft!5e0!3m2!1sen!2sin!4v1779873697905!5m2!1sen!2sin"
                 title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe>
         </div>
     </section>
 
     <!-- Faq -->
     <section class="pb70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
-                    <div class="main-title text-center">
-                        <h2 class="title">Frequently Asked Questions</h2>
-                        <p class="paragraph mt10">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
+                <div class="main-title text-center">
+                    <h2 class="title">Frequently Asked Questions</h2>
+                    <p class="paragraph mt10">
+                        Find answers about HandiMart registration, services, and professionals.
+                    </p>
                 </div>
             </div>
-            <div class="row wow fadeInUp" data-wow-delay="300ms">
-                <div class="col-lg-8 mx-auto">
-                    <div class="ui-content">
-                        <div class="accordion-style1 faq-page">
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item active">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">What methods of
-                                            payments are supported?</button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="headingOne" data-parent="#accordionExample">
-                                        <div class="accordion-body">Cras vitae ac nunc orci. Purus amet tortor non at
-                                            phasellus
-                                            ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque
-                                            volutpat nec sit
-                                            vel donec. Sagittis, id volutpat erat vel.</div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">Can I cancel
-                                            at anytime?</button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                        <div class="accordion-body">Cras vitae ac nunc orci. Purus amet tortor non at
-                                            phasellus
-                                            ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque
-                                            volutpat nec sit
-                                            vel donec. Sagittis, id volutpat erat vel.</div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">How do I
-                                            get a receipt for my purchase?</button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-parent="#accordionExample">
-                                        <div class="accordion-body">Cras vitae ac nunc orci. Purus amet tortor non at
-                                            phasellus
-                                            ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque
-                                            volutpat nec sit
-                                            vel donec. Sagittis, id volutpat erat vel.</div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFour">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                            aria-expanded="false" aria-controls="collapseFour">Which
-                                            license do I need?</button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFour" data-parent="#accordionExample">
-                                        <div class="accordion-body">Cras vitae ac nunc orci. Purus amet tortor non at
-                                            phasellus
-                                            ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque
-                                            volutpat nec sit
-                                            vel donec. Sagittis, id volutpat erat vel.</div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFive">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                            aria-expanded="false" aria-controls="collapseFive">How do I get
-                                            access to a theme I purchased?</button>
-                                    </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFive" data-parent="#accordionExample">
-                                        <div class="accordion-body">Cras vitae ac nunc orci. Purus amet tortor non at
-                                            phasellus
-                                            ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque
-                                            volutpat nec sit
-                                            vel donec. Sagittis, id volutpat erat vel.</div>
+        </div>
+
+        <div class="row wow fadeInUp" data-wow-delay="300ms">
+            <div class="col-lg-8 mx-auto">
+                <div class="ui-content">
+                    <div class="accordion-style1 faq-page">
+
+                        <div class="accordion" id="accordionExample">
+
+                            <!-- FAQ 1 -->
+                            <div class="accordion-item active">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        What is HandiMart?
+                                    </button>
+                                </h2>
+
+                                <div id="collapseOne"
+                                    class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne"
+                                    data-parent="#accordionExample">
+
+                                    <div class="accordion-body">
+                                        HandiMart connects customers with craftsmen, designers,
+                                        photographers, painters, manufacturers, exporters,
+                                        and creative professionals across India.
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- FAQ 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Is registration free on HandiMart?
+                                    </button>
+                                </h2>
+
+                                <div id="collapseTwo"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+
+                                    <div class="accordion-body">
+                                        Yes, registration is completely free for all craftsmen,
+                                        freelancers, manufacturers, exporters, and service professionals.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Who can join HandiMart?
+                                    </button>
+                                </h2>
+
+                                <div id="collapseThree"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+
+                                    <div class="accordion-body">
+                                        Carpenters, furniture makers, artists, photographers,
+                                        painters, interior designers, manufacturers, exporters,
+                                        and all skilled professionals can join HandiMart.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Can I upload my portfolio and business details?
+                                    </button>
+                                </h2>
+
+                                <div id="collapseFour"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour"
+                                    data-parent="#accordionExample">
+
+                                    <div class="accordion-body">
+                                        Yes, users can upload portfolio images, services,
+                                        business information, and contact details to showcase their work.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        How can customers contact professionals?
+                                    </button>
+                                </h2>
+
+                                <div id="collapseFive"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="headingFive"
+                                    data-parent="#accordionExample">
+
+                                    <div class="accordion-body">
+                                        Customers can directly contact professionals through
+                                        phone, WhatsApp, email, or inquiry forms available on profiles.
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 @endsection

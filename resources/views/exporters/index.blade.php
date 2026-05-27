@@ -36,6 +36,7 @@
                         <th>Email</th>
                         <th>Phone</th>
                         <th>Created Date</th>
+                          <th>Role</th>
                         <th>Action</th>
                       </tr>
                     </thead>
@@ -53,6 +54,7 @@
                             <td>{{ $user_data->email }}</td>
                             <td>{{ $user_data->phone }}</td>
                             <td>{{ date('d-m-Y', strtotime($user_data->created_at)) }}</td>
+                            <td><a href="#"class="badge badge-success">{{ $user_data->public_name }}<a></td>
                             <td class="text-right">
                               <a class="btn btn-secondary custom-btn-1" href="{{ url('dashboard/exporters/my-profile/personal-detail',$user_data->id) }}">
                               <i class="link-icon" data-feather="edit"></i> Edit</a>
