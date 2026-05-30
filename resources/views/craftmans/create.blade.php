@@ -4,18 +4,18 @@
 @section('content')
 @if ($message = Session::get('success'))
 <div class="alert alert-success">
-  <p>{{ $message }}</p>
+    <p>{{ $message }}</p>
 </div>
 @endif
 @if (count($errors) > 0)
-  <div class="alert alert-danger">
+<div class="alert alert-danger">
     <strong>Whoops!</strong> There were some problems with your input.<br><br>
     <ul>
-       @foreach ($errors->all() as $error)
-         <li>{{ $error }}</li>
-       @endforeach
+        @foreach ($errors->all() as $error)
+        <li>{{ $error }}</li>
+        @endforeach
     </ul>
-  </div>
+</div>
 @endif
 
 
@@ -31,15 +31,15 @@
         <div class="card">
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center flex-wrap grid-margin">
-                  <div>
-                    <h4 class="mb-3 mb-md-0">Create New Craftman</h4>
-                  </div>
+                    <div>
+                        <h4 class="mb-3 mb-md-0">Create New Craftman</h4>
+                    </div>
                 </div>
-                
+
                 <fieldset>
                     <div class="row">
                         <div class="col-md-6">
-                            <h4 class="card-title userSection mt-0" >User Info</h4>
+                            <h4 class="card-title userSection mt-0">User Info</h4>
                         </div>
                     </div>
                     <div class="row">
@@ -73,6 +73,7 @@
                             </div>
                         </div>
                     </div>
+           
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -81,13 +82,14 @@
                                 {!! Form::text('username', null, array('id'=>'username', 'placeholder' => 'Username','class' => 'form-control isValidUsername')) !!}
                             </div>
                         </div>
-                        
+                       
                     </div>
                     <div class="row">
                         <div class="col-md-6">
                             <h4 class="card-title userSection">Contact Info</h4>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -96,7 +98,7 @@
                                 {!! Form::text('email', null, array('id'=>'email', 'placeholder' => 'example@email.com','class' => 'form-control')) !!}
                             </div>
                         </div>
-                    
+
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="website">Website</label>
@@ -105,6 +107,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -113,7 +116,7 @@
                                 {!! Form::text('facebook', null, array('id'=>'facebook', 'placeholder' => 'https://facebook.com/username','class' => 'form-control isValidWebsite')) !!}
                             </div>
                         </div>
-                    
+
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="twitter">Twitter</label>
@@ -126,7 +129,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="phone">Phone Number</label>
-                                <input id="phone" class="form-control isValidPhone" name="phone" type="text" placeholder="+910123456789" >
+                                <input id="phone" class="form-control isValidPhone" name="phone" type="text" placeholder="+910123456789">
                                 <!-- {!! Form::text('phone', null, array('id'=>'phone', 'placeholder' => '+91-1234567890','class' => 'form-control')) !!} -->
                             </div>
                         </div>
@@ -172,7 +175,7 @@
                             <div class="form-group">
                                 <label for="password">Password</label>
                                 <input id="password" class="form-control" name="password" type="password" placeholder="Password">
-                                
+
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -193,16 +196,16 @@
                 <fieldset>
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <h4 class="card-title userSection mt-0" > Upload User Profile Picture</h4>
-                                <img class="rounded profileImage" src="https://via.placeholder.com/150x150" alt="profile" id="avatar_preview" width="150px" height="150px">
-                            
+                            <h4 class="card-title userSection mt-0"> Upload User Profile Picture</h4>
+                            <img class="rounded profileImage" src="https://via.placeholder.com/150x150" alt="profile" id="avatar_preview" width="150px" height="150px">
+
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 mt-20" style="margin-top: 20px;">
                             <div class="form-group">
                                 <input type="file" id="avatar" name="avatar" class="file-upload-default" onchange="loadFile(event)">
-                                
+
                                 <div class="input-group col-xs-12">
                                     <input type="text" class="form-control file-upload-info" disabled="" placeholder="Upload Image">
                                     <span class="input-group-append">
@@ -224,7 +227,7 @@
                 </fieldset>
             </div>
         </div>
-    </div> --> 
+    </div> -->
 </div>
 {!! Form::close() !!}
 

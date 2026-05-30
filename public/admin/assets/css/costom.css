@@ -537,3 +537,25 @@ img.updateFavicon {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 5px;
 }
+
+
+
+
+/* new css in deepsa */
+
+    .verified-badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+   background-color: #5bbb7b;
+    border: 4px solid #5bbb7b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    z-index: 2;
+}
